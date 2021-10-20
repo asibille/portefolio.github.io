@@ -1,0 +1,187 @@
+
+#menu-principal, #menu-principal ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    width: 180px; /* seule ligne rajoutée */
+   border-radius: 30px;
+  }
+#menu-principal > li {
+    position: relative;
+    z-index: 7;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    border-radius: 30px;
+ 
+    
+  }
+  #menu-principal a{
+    display:block;
+    text-decoration: none;
+    color: #0f0f0f;
+    border-radius: 30px;
+  }
+
+  #menu-principal ul {
+    position: absolute;
+    left:-999em;
+    border-radius: 30px;
+    
+  }
+
+  #menu-principal li:hover ul {
+    top: 0;
+    left: 152px;
+    border: 30px;
+  
+  }
+  #menu-principal  .li1
+  {
+      padding: 15px;
+      background-color: rgb(200, 112,200);
+      border: 2px solid #7E0BE3;
+      border-radius: 30px;
+      z-index: 7;
+      border: 30px;
+
+  }
+
+  #menu-principal .li1:hover
+  {
+    background: #26DDC7;
+    color: #06365D;
+    border: 2px solid #0583C7;
+    z-index: 7;
+    border-radius: 30px;
+  
+  }
+
+  #menu-principal .a1
+  {
+    padding: 3px;
+    color: #black;
+    background-color: rgba(100, 0, 62, 0.63);
+    border: 2px solid #4091D3;
+    border-radius: 30px #0B4CDF
+    z-index: 7;
+    width: 65%;
+    margin-top: 1px;
+  }
+
+  #menu-principal  .a1:hover
+  {
+    background: #09C479;
+    color: #50826E;
+    border: 2px solid #0094EE;
+    border-radius: 30px;
+  }
+
+.top
+{
+
+background: pink;
+	margin: auto;
+	border: 2px solid green;
+
+border-radius: 6px;
+height: 900px;
+width: 1000px;
+
+}
+
+.banniere
+{
+margin: 10px;
+	border: 2px solid #060bfa;
+
+border-radius: 6px;
+margin: 1em;
+}
+
+
+.menu
+{
+width: 200px;
+height:500px;
+border-radius: 5px;
+border: 2px solid red;
+margin-bottom: 20px;
+border-radius: 30px;
+padding: 15px;
+margin: 10px;
+float: left;
+}
+
+.affichage 
+
+{
+margin-bottom: 10em;
+width: 670px;
+height:500px;
+border-radius: 5px;
+border: 2px solid black;
+border-radius: 30px;
+padding: 15px;
+float: right;
+margin: 10px;
+
+}
+
+
+.page
+{
+
+width: 150px;
+height: 150px;
+border-radius: 5px;
+border: 2px solid black;
+float: right;
+}
+
+footer 
+
+{
+
+margin: 30px;
+
+
+position:absolute;
+
+bottom:70px;
+
+width: 950px;
+
+padding-bottom:60px;
+
+height:50px;
+
+border: 2px solid #060bfa;
+
+border-radius: 6px;
+}
+
+nav li
+{
+	float: left;
+	width: 150px;
+	height: 100px;
+	border: 2px solid #B800EE;
+	text-align: center;
+	line-height: 40px;
+}
+nav li a
+
+{text-decoration: none;
+  border: 2px solid black;
+  display: block;
+  background-color: #A600EE;
+  margin-left: auto ;
+}
+.hover :hover {
+background-color: green;
+}
+.f2{
+  width: 500px;
+  height: 500px;
+}
+
