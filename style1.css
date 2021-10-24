@@ -149,7 +149,7 @@ position:absolute;
 
 bottom:70px;
 
-width: 950px;
+width: 500px;
 
 padding-bottom:60px;
 
@@ -185,3 +185,11 @@ background-color: green;
   height: 500px;
 }
 
+.etape3
+{
+
+
+text-align: right;
+margin: 15px;
+
+}
